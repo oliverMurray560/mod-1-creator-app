@@ -17,6 +17,7 @@
 		4CC4BE4D2AAA13200013E2FD /* mod_1_creator_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC4BE4C2AAA13200013E2FD /* mod_1_creator_appTests.swift */; };
 		4CC4BE572AAA13200013E2FD /* mod_1_creator_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC4BE562AAA13200013E2FD /* mod_1_creator_appUITests.swift */; };
 		4CC4BE592AAA13200013E2FD /* mod_1_creator_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC4BE582AAA13200013E2FD /* mod_1_creator_appUITestsLaunchTests.swift */; };
+		4CEE24202AAF854400506BBB /* Autumn Thunder_ Round Up by Sam Spence.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4CEE241F2AAF854400506BBB /* Autumn Thunder_ Round Up by Sam Spence.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		4CC4BE522AAA13200013E2FD /* mod 1 creator appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mod 1 creator appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC4BE562AAA13200013E2FD /* mod_1_creator_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mod_1_creator_appUITests.swift; sourceTree = "<group>"; };
 		4CC4BE582AAA13200013E2FD /* mod_1_creator_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mod_1_creator_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4CEE241F2AAF854400506BBB /* Autumn Thunder_ Round Up by Sam Spence.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Autumn Thunder_ Round Up by Sam Spence.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		4CC4BE312AAA131F0013E2FD /* mod 1 creator app */ = {
 			isa = PBXGroup;
 			children = (
+				4CEE241F2AAF854400506BBB /* Autumn Thunder_ Round Up by Sam Spence.mp4 */,
 				4CC4BE322AAA131F0013E2FD /* AppDelegate.swift */,
 				4CC4BE342AAA131F0013E2FD /* SceneDelegate.swift */,
 				4CC4BE362AAA131F0013E2FD /* ViewController.swift */,
@@ -237,6 +240,7 @@
 				4CC4BE422AAA13200013E2FD /* LaunchScreen.storyboard in Resources */,
 				4CC4BE3F2AAA13200013E2FD /* Assets.xcassets in Resources */,
 				4CC4BE3A2AAA131F0013E2FD /* Main.storyboard in Resources */,
+				4CEE24202AAF854400506BBB /* Autumn Thunder_ Round Up by Sam Spence.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +453,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -477,6 +482,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
