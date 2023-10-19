@@ -26,7 +26,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     
     
-    var player: AVAudioPlayer?
+    var player: AVAudioPlayer!
     
     var comps : Double?
     var atps : Double?
@@ -116,14 +116,28 @@ qbr = (((p1 + p2 + p3 + p4)/6)*100)
         
     }
     
+      
+    @IBAction func playbutton(_ sender: UIButton) {
         
+        playSound()
+    }
+    
+    
+    
+    
+    
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         return true
     }
     
     
-    
+    func playSound(){
+        
+        let url = Bundle.main.url(forResource: "cMusic", withExtension: "mp3")
+        player = try! AVAudioPlayer(contentsOf: url!)
+        player!.play()
+    }
     
     
     
